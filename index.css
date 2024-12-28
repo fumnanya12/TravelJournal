@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+}
+.container {
+    margin: 45px 40px;
+}
+
+.header {
+display: flex;
+align-items: center;
+background-color: red;
+justify-content: center;
+height: 55px;
+
+
+}
+
+.header img{
+    width: 30px;
+    margin-right: 10px;
+}
+.header span { 
+    color: white;
+    font-size: 20px;
+}
+
+.journal-entry {
+   display: flex;
+   margin-bottom: 36px;
+}
+.journal-entry .marker{
+    width: 7px;
+    margin-right: 4px;
+}
+.journal-entry span {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    margin-right: 12px
+}
+.journal-entry a {
+    color: #2B283A;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+.journal-entry a:visited {
+    color: #918E9B;
+}
+.journal-entry h2.entry-title {
+    margin-top: 7px;
+    margin-bottom: 17px;
+
+}
+
+.journal-entry p.trip-dates {
+    font-weight: bold;
+}
+
+.journal-entry p.entry-text {
+    line-height: 1.5;
+    font-size: 0.8rem;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.main-image {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   
+}
+.image-container {
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-right: 19px;
+}
